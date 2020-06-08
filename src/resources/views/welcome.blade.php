@@ -1,5 +1,9 @@
 <x-layout>
-    <x-section>Hi There</x-section>
-    <x-section>Hi There second time</x-section>
-    <x-section>Hi There for the third time 🎉</x-section>
+    <x-flash type="error">
+        You are now logged out!
+    </x-flash>
+    <br/>
+    <x-flash class="mt-10" data-flash="foobar">
+        Great Job
+    </x-flash>
 </x-layout>
