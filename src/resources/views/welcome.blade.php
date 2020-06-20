@@ -1,6 +1,19 @@
 <x-layout>
     <x-section>
-        Hello World
+
+        <x-tabs active="Third">
+            <x-tab name="First">First content goes here.</x-tab>
+            <x-tab name="Second">Second content goes here.</x-tab>
+            <x-tab name="Third">Third content goes here.</x-tab>
+        </x-tabs>
+
+        <hr class="my-10">
+
+        <x-tabs active="Third">
+            <x-tab name="First">First content goes here.</x-tab>
+            <x-tab name="Second">Second content goes here.</x-tab>
+            <x-tab name="Third">Third content goes here.</x-tab>
+        </x-tabs>
 
     </x-section>
 </x-layout>
