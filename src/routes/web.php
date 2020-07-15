@@ -48,5 +48,9 @@ Route::delete('/comments/{comment}', function (Comment $comment) {
     return redirect('/');
 });
 
+Route::get('/social-media', function () {
+    return view('social-media');
+})->name('social-media');
+
 
 
